@@ -1,0 +1,127 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {   
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.main-page {
+    background-image: url(../images/floor-1256804_1280.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-container {
+    background-color: rgba(0,0,0,.4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+}
+
+.name h1 {
+    color: whitesmoke; 
+    /* font-size: 27px; */
+    padding-left: 8px;
+    width: 300px;
+}
+
+.h1 {
+    margin: auto;
+    /* padding-left: 8px;
+    font-size: 27px;
+    text-decoration-color: whitesmoke;
+    text-color: whitesmoke; */
+}
+
+.nav-links {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.nav-text
+{
+    color: whitesmoke;
+    padding-right: 8px;
+    font-size: 14px;
+}
+
+.hanger-container{
+    background-color:  rgba(0,0,0,.4);
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100%;
+    width: 900px;
+    margin-top: 50px;
+}
+
+/* img{
+    height: 50px;
+    width: 50px;
+} */
+
+.hanger{
+    outline: 1px solid red;
+    /* height: 100%; */
+    /* width: 300px;
+    justify-content: center; */
+}
+
+/* 
+@media screen and (min-width: 375px) {
+    .profile-image{
+        width: 250px;
+        outline: 5px solid red;
+    }
+    .about-me{
+        display: flex;
+    }
+    .about-me > div{
+        outline: 1px solid red;
+    }
+    .about-me-container{
+        width: 70%;
+        padding-right: 18px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .wolf-text{
+        font-size: 70px;
+        outline: 1px solid red;
+    } 
+
+    .header-text{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-text > * {
+        outline: 1px solid red;
+    }
+
+    .nav-container {
+        display: inline-block;
+    }
+} */
