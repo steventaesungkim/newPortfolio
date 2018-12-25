@@ -304,3 +304,49 @@ a {
     color: #fff;
     font-size: 1.4rem;
 }
+
+/* ////////////////////////////////
+           CONTACT PAGE
+/////////////////////////////// */
+.contact-header h2 {
+    padding-bottom: 1rem;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+}
+
+.contact-form {
+    width: 100%;
+}
+.contact-form .form {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}
+
+.label {
+    color:#fff;
+    padding: 5px;
+}
+
+.input-field {
+    background-image: url(../images/black-1072366_1280.jpg);
+    color: #fff;
+    height: 45px;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.input-field::placeholder {
+    color: rgba(255, 255, 255, .4);
+    
+    padding-left: 15px;
+    font-size: 14px;
+}
