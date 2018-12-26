@@ -335,9 +335,9 @@ a {
 }
 
 .input-field {
-    background-image: url(../images/black-1072366_1280.jpg);
     color: #fff;
     height: 45px;
+    /* background: rgba(255, 255, 255, .2); */
 }
 
 .input-field:focus {
