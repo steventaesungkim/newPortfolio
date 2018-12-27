@@ -101,7 +101,7 @@ a {
     text-decoration: none;
     font-size: 1.6rem;
     letter-spacing: 4px;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 /* ////////////////////////////////
@@ -203,9 +203,9 @@ a {
     padding: 2rem;
 }
 /* IF USING 4 PROJECTS - UNCOMMENT THIS  */
-.projects-bottom-container {
+/* .projects-bottom-container {
     justify-content: space-evenly;
-}
+} */
 
 .project-container {
     display: flex;
