@@ -40,7 +40,7 @@ a {
     width: 100%;
     display: flex;
     padding-bottom: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 9rem;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -50,6 +50,7 @@ a {
     height: 100%;
     width: 100%;
     padding: .5rem 0;
+    margin-bottom: 8rem;
     /* outline: 1px solid blue; */
     display: flex;
     justify-content: flex-start;
@@ -179,7 +180,7 @@ a {
     background-image: url(../images/black-1072366_1280.jpg);
     height: 100%;
     width: 80%;
-    margin: 4.5rem auto;
+    margin: 10.5rem auto 14rem auto;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -285,7 +286,7 @@ a {
     background-repeat: no-repeat;
     height: 100%;
     width: 80%;
-    margin: 4.5rem auto;
+    margin: 10.5rem auto 14rem auto;
     padding: 2rem;
     display: flex;
     justify-content: center;
