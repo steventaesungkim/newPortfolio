@@ -67,7 +67,7 @@ a {
     background-image: url(../images/black-1072366_1280.jpg);
     height: 80%;
     width: 60%;
-    margin: 3rem auto;
+    margin: 5rem auto;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -81,6 +81,7 @@ a {
 .home-pg{
     /* outline: 1px solid green; */
     height: 400px;
+    
 }
 
 .contact-pg {
